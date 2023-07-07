@@ -1,0 +1,45 @@
+<html>
+  <main>
+    <h1 id="title"> Survey Form </h1>
+    <p id="description">This is a survey to see how many days a week you work from home</p>
+
+    <form id="survey-form">
+      <label id="name-label">Name:</label>
+      <input id="name" type="text" placeholder="John Smith" required="yes"><br>
+      <label id="email-label">Email:</label>
+      <input id="email" placeholder="JohnSmith@gmail.com" type="email" required="yes"><br>
+      <!-- Validation Eror -->
+      <label id="number-label">Number of days worked remotely:</label>
+      <input id="number" min='0' max='100' placeholder="5" type="number"><br><br>
+      <!-- Require numbers only -->
+      <!-- between min and max -->
+
+      <h3>What industry do you work in?</h3>
+      <select id="dropdown" name="choose" >
+        <option value="Tech">Tech</option>
+        <option value="Education">Education</option>
+        <option value="Health">Health</option>
+        <option value="Social Media">Social Media</option>
+        <option value="Finance">Finance</option>
+        <option value="Other">Other</option>
+      </select><br><br>
+
+      <h3>Are you a C Suite employee?</h3>
+      <input type="radio" name="CSuite" value="Yes">
+      <label>Yes</label><br>
+      <input type="radio" name="CSuite" value="No">
+      <label>No</label><br>
+
+      <h3>Do you use your own equipment?</h3>
+      <input type="checkbox" value="Yes">
+      <label>I use all of my own equipment</label><br>
+      <input type="checkbox" value="No">
+      <label>All of the equipment is provided from my employer</label><br>
+      <input type="checkbox" value="Half">
+      <label>I use a mix of my own equipment and some from my employer</label><br><br>
+      <textarea>Additional Comments?</textarea><br>
+      Submit: <button id="submit">
+
+    </form>
+  </main>
+</html>
