@@ -1,0 +1,41 @@
+#main{
+    background-color:gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title{
+    text-align: center    
+}
+
+#dates{
+    text-align: center;
+}
+
+#img-div{
+    background-color:whitesmoke;
+}
+
+#image{
+    scale:75%;
+    max-width: 100%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-caption{
+    text-align: center;
+    font-size: smaller;
+    margin-top: 0px;
+}
+
+#tribute-info{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#tribute-link{
+    text-align: center;
+    margin-left: 5'%;
+}
